@@ -1,0 +1,35 @@
+{
+  "name": "starter-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@comprodls/w-scoring-engine": "file:../widgets/shared/scoring-engine",
+    "@comprodls/w-assessment-core": "file:../widgets/shared/assessment-core",
+    "@comprodls/w-input-wiris-equation": "file:../widgets/inputs/wiris-equation",
+    "@comprodls/w-question-fib": "file:../widgets/questions/fib",
+    "@comprodls/w-question-meqn": "file:../widgets/questions/meqn",
+    "@comprodls/w-rt-block": "file:../widgets/interactives/rich-text",
+    "@comprodls/w-question-plain-text": "file:../widgets/questions/plain-text",
+    "@comprodls/w-question-rich-text": "file:../widgets/questions/rich-text",
+    "@comprodls/w-single-question": "file:../widgets/assessments/single-question",
+    "@comprodls/w-open-response": "file:../widgets/assessments/open-response",
+    "@comprodls/w-video-block": "file:../widgets/interactives/video",
+    "@comprodls/w-theme": "file:../widgets/shared/theme",
+    "lit": "^3.0.0",
+    "nuxt": "^3.21.1",
+    "vue": "^3.5.30",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@types/node": "^25.5.2",
+    "sass-embedded": "^1.99.0"
+  }
+}
